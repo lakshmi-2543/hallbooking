@@ -1,0 +1,75 @@
+// sample json for create room
+const room = [
+    {
+    "roomID": "R101",
+    "pricePerHr":100,
+    "seats":50,
+    "amenities": {"TV":true, 
+    "AC":false,
+     "lift":true, 
+     "heater":true, 
+     "pool":false,
+    "gym":true}
+},
+{
+    "roomID": "R102",
+    "pricePerHr":200,
+    "seats":75,
+    "amenities": {"TV":true, 
+    "AC":false,
+     "lift":true, 
+     "heater":true, 
+     "pool":false,
+    "gym":true}
+},{
+    "roomID": "R103",
+    "pricePerHr":400,
+    "seats":150,
+    "amenities": {"TV":true, 
+    "AC":true,
+     "lift":true, 
+     "heater":true, 
+     "pool":true,
+    "gym":true}
+}];
+
+// sample json for book a room
+const booking = [{
+    "bookingID":"B1",
+    "roomID":"R102",
+    "customer":"Raji",
+    "bookingDate":"20230725",
+    "startTime": "12noon",
+    "endTime": "11:59am",
+    "status":"expired",
+    "booked_On": "15/07/2023"
+},{
+    "bookingID":"B2",
+    "roomID":"R101",
+    "customer":"Mani",
+    "bookingDate":"20230728",
+    "startTime": "12noon",
+    "endTime": "11:59am",
+    "status":"expired",
+    "booked_On": "01/07/2023"
+},
+{
+    "bookingID":"B3",
+    "roomID":"R101",
+    "customer":"Ravi",
+    "bookingDate":"20230721",
+    "startTime": "12noon",
+    "endTime": "11:59am",
+    "status":"booked",
+    "booked_On": "18/07/2023"
+},
+{
+    "bookingID":"B4",
+    "roomID":"R101",
+    "customer":"Keerthi",
+    "bookingDate":"20230731",
+    "startTime": "12noon",
+    "endTime": "11:59am",
+    "status":"booked",
+    "booked_On": "02/07/2023"
+}];
